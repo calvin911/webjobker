@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header,
+main,
+
+footer{
+    padding-top: 10px;
+    box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.88);
+    -webkit-box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.88);
+    -moz-box-shadow: 6px 7px 12px -3px rgba(0,0,0,0.88);
+    margin: 20px;
+}
+
+
+#tampilan-atas{
+    height: 300px;
+
+    background: url('../assets/image/header_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+}
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+  
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: right;
+    border: 1px solid black;
+
+ }
+ .flex-container-row {
+   
+   display: flex;
+   
+   overflow: auto;
+   
+ }
+
+ .row{
+    width: 332.6px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    
+ }
+ .cv{
+    margin: 10px auto;
+ }
+   
